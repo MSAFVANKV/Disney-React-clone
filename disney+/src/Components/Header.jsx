@@ -57,11 +57,11 @@ function Header() {
                    {toggle? <div className="absolute mt-3 bg-[#0121212]
                     border-[1px] border-gray-700 px-5 p-4 rounded-lg">
                     {menu.map((item,index)=>index>2&&(
-                        <HeaderItem name={item.name} Icon={item.icon}/>
+                                                                                                            <HeaderItem name={item.name} Icon={item.icon}/>
                     ))}
                     </div>:null}
                 </div>
-            </div>
+            </div>                                                                     
         </div>
         <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev"
         className='w-[40px] rounded-full' />

@@ -1,3 +1,18 @@
 #root {
-  
+    background-color: #0F1014;
+}
+
+.logo{
+    height: 6rem;
+    padding: 1.5rem;
+    will-change: filter;
+    transition: filter 300s;
+}
+.logo:hover{
+    filter: drop-shadow(0 0 2em #646cffaa);
+
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
 }
